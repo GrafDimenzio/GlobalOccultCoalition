@@ -1,6 +1,6 @@
 # GlobalOccultCoalition
 The Plugin adds the Global Occult Coalition to the game, which is a organisation that Goal is it to save all Humans and destroy all Scp's.
-That means they have to rescue all ClassD's and if possible also rescuing the scientist by disarming them and bringing to the Escape.
+That means they have to rescue all ClassD's and if possible also rescuing the scientist by disarming them and bring them to the Escape.
 If they encounter any Foundation personnel they can kill them or cooperate with them.
 
 [Wiki](http://www.scpwiki.com/goc-hub-page)
