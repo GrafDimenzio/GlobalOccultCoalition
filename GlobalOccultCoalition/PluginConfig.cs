@@ -1,15 +1,19 @@
 ﻿using Synapse.Config;
 using UnityEngine;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace GlobalOccultCoalition
 {
     public class PluginConfig : AbstractConfigSection
     {
+        [Description("The Chanche that a GOC Physics strike team is spawning instead of an Mtf")]
         public float SpawnChanche = 30f;
 
+        [Description("If the GOC team can hurt them among themselves")]
         public bool ff = false;
 
+        [Description("The Location where they spawn")]
         public SerializedMapPoint GOCSpawn = new SerializedMapPoint
         {
             Room = "Root_*&*Outside Cams",
@@ -18,12 +22,16 @@ namespace GlobalOccultCoalition
             Z = -90.30247f
         };
 
+        [Description("The Health they have")]
         public int Health = 120;
 
+        [Description("The Amount of Ammo they spawn with")]
         public SerializedAmmo Ammo = new SerializedAmmo();
 
+        [Description("The Color which the GOC display text should have")]
         public string Color = "white";
 
+        [Description("The Items they spawn with")]
         public List<SerializedItem> Inventory = new List<SerializedItem>
         {
             new SerializedItem((int)ItemType.KeycardChaosInsurgency,0f,0,0,0,Vector3.one),
